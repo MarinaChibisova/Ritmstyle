@@ -1,0 +1,234 @@
+.body {
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    width: 1527px;
+    background-color: #162831;
+
+}
+.navigation-wrapper {
+    background-color: #162831;
+    width: 1527px;
+    height: 85px;
+    display: block;
+ }
+ .nav {
+     display: flex;
+     margin-left: 240px;
+ }
+ .nav-menu {
+    display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ max-width: 1090px;
+ margin-left: 132px;
+ padding-top: 14px;
+ }
+.nav-li {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-right: 40px;
+}
+
+.img-logo {
+    height: 48px;
+    padding-top: 16px;
+    padding-left: 2px;
+}
+
+:root {
+    --bg: #162831;
+    --color: #018ABE;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: #FFFFFF;
+    padding: 14px 10px;
+    line-height: 1;
+    border-radius: 2px;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top: -3px;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+.blog-wrapper {
+    background-color: #162831;
+    width: 1527px;
+    height: 1200px;
+}
+.title-1 {
+    color: #FFFFFF;
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 32px;  
+    letter-spacing: 0.8px;
+    padding-left: 39px;
+}
+.title-1-wrapper {
+    display: flex;
+    padding-top: 19px;
+}   
+.border-first-blue {
+    height: 11px;
+    padding-top: 52px;
+    padding-left: 663px;
+}
+.border-last-blue {
+    height: 11px;
+    padding-top: 52px;
+    padding-left: 37px;
+}
+.container-1 {
+    display: flex;
+    border: 2px solid #018ABE;
+    border-radius: 20px;
+    box-sizing: content-box;
+    width: 1034px;
+    height: 420px;
+    margin-left: 242px;
+    margin-top: 15px;
+}
+.img-blog-1 {
+    width: 452px;
+    height: 345px;
+    padding-top: 40px;
+    padding-left: 47px;
+}
+.text-block {
+    width: 450px;
+    padding-left: 40px;
+    padding-top: 28px;
+    color: #FFFFFF;
+}
+.data-1 {
+    margin-top: 15px;
+    background-color: #018ABE;
+    width: 76px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 2px;
+}
+.title-text-1 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 19px;
+    padding-top: 0px;
+    letter-spacing: 0.2px;
+}
+.text-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    padding-bottom: 36px;
+}
+.read-more {
+    background-color: #018ABE;
+    width: 76px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-2 {
+    display: flex;
+    border: 2px solid #018ABE;
+    border-radius: 20px;
+    box-sizing: content-box;
+    width: 1034px;
+    height: 420px;
+    margin-left: 242px;
+    margin-top: 35px;
+}
+.img-blog-2 {
+    width: 452px;
+    height: 345px;
+    padding-top: 40px;
+    padding-left: 47px;
+}
+.text-block-2 {
+    width: 450px;
+    padding-left: 40px;
+    padding-top: 28px;
+    color: #FFFFFF;
+}
+.data-2 {
+    margin-top: 15px;
+    background-color: #018ABE;
+    width: 76px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 2px;
+}
+.title-text-2 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 19px;
+    padding-top: 0px;
+    letter-spacing: 0.2px;
+}
+.text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    padding-bottom: 36px;
+}
+.read-more {
+    background-color: #018ABE;
+    width: 76px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
